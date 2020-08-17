@@ -6,5 +6,6 @@ class Student
   attr_reader :id
 
   def initialize(name, grade)
+  end
 
 end
