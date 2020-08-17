@@ -40,7 +40,7 @@ class Student
   end
 
   def self.create(attrs)
-    attrs = {}
+    attrs = {:name, :grade}
     student = Student.new
     student.save
     student
